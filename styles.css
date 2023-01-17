@@ -1,0 +1,37 @@
+/*styles*/
+*{
+    background-color: #1F2937;
+    margin-left: 5%;
+    margin-right:5%;
+    color:#ffff;
+}
+.header{
+    height: 5%;
+    background-color: #1F2937;
+    /*color: #ffffff;*/
+    display: flex;
+    border: 2px solid red;
+}
+
+.logo{
+    /*background-color: red;*/
+    border: solid green 2px;
+    
+    flex-grow: 1;
+    font-size: 24px;
+    color: #F9FaF8;
+}
+
+.link{
+     border: solid green 2px;
+     /*background-color: red;*/
+     font-size: 18px;
+     color: #E5E7EB;
+}
+
+.below-header{
+    display:flex;
+    border: solid red 2px;
+    flex-flow:wrap column;
+    
+}
