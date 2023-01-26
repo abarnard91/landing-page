@@ -1,21 +1,28 @@
 /*styles*/
 *{
-    background-color: #1F2937;
-    margin-left: 5%;
-    margin-right:5%;
+    background-color: black;   
     color:#ffff;
+    /*font-family: 'Roboto', sans-serif;*/
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .header{
     height: 5%;
     background-color: #1F2937;
+    margin-left: 15%;
+    margin-right: 15%;
     /*color: #ffffff;*/
     display: flex;
-    border: 2px solid red;
+    /*border: 2px solid red;*/
+    justify-content: flex-end;
+    padding-left: 7%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+
 }
 
 .logo{
-    /*background-color: red;*/
-    border: solid green 2px;
+    background-color: #1F2937;
+    /*border: solid green 2px;*/
     
     flex-grow: 1;
     font-size: 24px;
@@ -23,15 +30,191 @@
 }
 
 .link{
-     border: solid green 2px;
-     /*background-color: red;*/
+    /* border: solid green 2px;*/
+     padding-left: 10px;
+     padding-right: 10px;
+     background-color: #1f2937;
      font-size: 18px;
      color: #E5E7EB;
 }
 
-.below-header{
+
+.hero-section{
     display:flex;
-    border: solid red 2px;
-    flex-flow:wrap column;
+    /*border: solid red 2px;*/
+    background-color: #1F2937;
+    align-items: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    gap: 50px;
+    padding-bottom:3%;
+
+}
+.hero-text{
+    align-self: flex-start;
+    /*display:flex;*/
+    /*flex-flow: column wrap;*/
+    background-color: #1F2937;
+    padding-left: 10%;
+    /*border: solid red 2px;*/
+}
+
+.Hero-main-text{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    background-color: #1F2937;
+   /* border: solid red 2px;*/
+}
+
+.Hero-secondary-text{
+    font-size:18px;
+    color:#E5E7EB;
+    background-color: #1F2937;
+    /*border: solid red 2px;*/
+}
+
+.button{
+    background-color: #3882F6;
+    border-radius: 5px;
+    color:#E5E7EB;
+    font-size:18;
+    font-weight:400;
+   /* border: 2px solid red;*/
+    width:95px;
+    text-align: center;
+}
+.hero-image{
+   /* border: solid red 2px;*/
+    padding-left: 8%;
+    padding-right: 10%;
+    width: 30%;
+    height: auto;
+    background-color: #1F2937;
+}
+
+.middle{
+    /*border: solid red 2px;*/
+    height:350px;
+    width:auto;
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: white;
+}
+
+.top-middle{
+    background-color: #ffff;
+    text-align: center;
+    color: #1F2937;
+    font-size: 38px;
+    font-weight: bolder;
+    /*border: solid red 2px;*/
+    align-items: center;
+}
+
+.boxes{
+    display:flex;
+    justify-content: center;
+    background-color: #ffff;
+    gap: 5%;
+        
+}
+.box-1, .img1,.box-2,.img2,.box-3,.img3,.box-4,.img4{ 
+    height: 125px;
+    width: auto;
+    border-radius: 5px;
+    border: solid #3882F6 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.caption{
+    font-size: 12px;
+    color:#1F2937;
+    background-color: #ffff;
+}
+
+.quote-section{
+    background-color: #E5E7EB;
+    text-align: left;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    margin-left: 15%;
+    margin-right: 15%;
+    color:#1F2937;
+    padding-left:12%;
+    padding-right:12%;
+    padding-top:3%;
+}
+.attributed{
+    padding-top: 0%;
+    text-align: end;
+    font-style:normal;
+    font-weight: bold;
+    font-size: 26px;
+    padding-bottom: 3%;
+
+}
+.call-to-action-section{
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: #ffff;
+    height: 300px;
+    border:2px solid white;
+    align-items: center;
     
+}
+
+.call-to-action-box{
+    background-color: #3882F6;
+    min-height: 100px;
+    margin-top: 8%;
+    margin-left: 10%;
+    margin-right: 10%;
+    /*: 2px solid red;*/
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+.word-box{
+    /*border: solid red 2px;*/
+    background-color: #3882F6;
+
+}
+
+.call-to-action-header,.call-to-action,.call-to-action-button{
+    background-color: #3882F6;
+}
+
+.call-to-action-header{
+    font-weight: bold;
+}
+.call-to-action{
+    font-size: small;
+}
+
+.call-to-action-button{
+    border: #ffff solid 2px;
+    align-self: center;
+    font-weight: bold;
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size: smaller;
+    border-radius: 5px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    font-size: x-small;
+
+    margin-left: 15%;
+    margin-right: 15%;
+    min-height: 50px;
 }
